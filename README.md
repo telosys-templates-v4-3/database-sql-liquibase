@@ -13,7 +13,7 @@ This bundle generates the following Liquibase files:
  - "**change-001.sql**"  
    The first changelog file in "plain SQL" format (Liquibase formatted SQL file)  
    The changelog contains SQL for PostgreSQL, 
-   to switch to another DB see 'database-sql-scripts' bundle (it provides other SQL DB examples)
+   to switch to another DB see 'database-sql-scripts' bundle (it provides other SQL DB examples)  
    This file is included in the root changelog.
    
 After generating the code, you just need to update the database configuration in the "liquibase.properties" file
